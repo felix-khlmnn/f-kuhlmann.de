@@ -93,7 +93,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "cname": "f-kuhlmann.de"
+            "cname": "www.f-kuhlmann.de"
           }
         }
       }
