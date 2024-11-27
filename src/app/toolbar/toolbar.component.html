@@ -1,10 +1,5 @@
-<mat-toolbar>
-    <span>{{ toolbarTitle }}</span>
+<mat-toolbar class="title-toolbar">
+    <span routerLink="/" class="title-link">{{ toolbarTitle }}</span>
+    <a href="https://github.com/{{githubUsername}}" class="link">Github-Profil</a>
     <span class="spacer-to-right"></span>
-    <button mat-icon-button aria-label="Example icon-button with heart icon">
-    <mat-icon>favorite</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-    <mat-icon>share</mat-icon>
-    </button>
 </mat-toolbar>

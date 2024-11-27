@@ -2,3 +2,21 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html {
+    --link-color: #007aff;
+    --link-hover-color: #2A5084;
+    --section-width: 58vw;
+    line-height: 1.4;
+}
+
+.link {
+    color: var(--link-color);
+    transition: color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--link-hover-color);
+}

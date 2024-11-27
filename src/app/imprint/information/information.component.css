@@ -1,0 +1,10 @@
+.information-container {
+    max-width: var(--section-width);
+    margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    .information-container {
+        max-width: 100vw;
+    }
+}

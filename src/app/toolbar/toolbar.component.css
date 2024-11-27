@@ -1,4 +1,12 @@
+.title-toolbar {
+  display: flex;
+  gap: 2rem;
+}
+
+.title-link {
+  cursor: pointer;
+}
+
 .spacer-to-right {
-    flex: 1 1 auto;
-  }
-  
+  flex: 1 1 auto;
+}
