@@ -10,6 +10,6 @@ import { FooterComponent } from "./footer/footer.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'f-kuhlmann.de';
+  title = 'Projektübersicht von Felix Kuhlmann';
   githubUsername = 'felix-khlmnn'
 }
