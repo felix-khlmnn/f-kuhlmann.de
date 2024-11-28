@@ -1,6 +1,7 @@
 .information-container {
     max-width: var(--section-width);
-    margin: 0 auto;
+    margin: 1rem auto;
+    min-height: auto;
 }
 
 @media (max-width: 800px) {
