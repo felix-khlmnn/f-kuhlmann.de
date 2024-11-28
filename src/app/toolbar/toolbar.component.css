@@ -1,4 +1,6 @@
 .title-toolbar {
+  background-color: var(--mat-sys-secondary-container);
+  color: var(--mat-sys-on-secondary-container);
   display: flex;
   gap: 2rem;
 }

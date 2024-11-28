@@ -1,0 +1,20 @@
+<mat-drawer #drawer [mode]="'push'" class="sidenav-drawer">
+    <mat-toolbar class="sidenav-toolbar">
+        <mat-toolbar-row>
+            <button mat-icon-button (click)="drawer.close()">
+                <mat-icon class="icon-on-tertiary-container" >close</mat-icon>
+            </button>
+        </mat-toolbar-row>
+        <mat-toolbar-row>
+            <a href="https://github.com/{{githubUsername}}" class="link-on-surface">Github-Profil</a>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</mat-drawer>
+<mat-drawer-content>
+    <mat-toolbar class="title-topbar">
+        <button mat-icon-button (click)="drawer.open()">
+            <mat-icon class="icon-on-primary-container">menu</mat-icon>
+        </button>
+        <span routerLink="/">{{ sidenavTitle }}</span>
+    </mat-toolbar>
+</mat-drawer-content>

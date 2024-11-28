@@ -1,7 +1,18 @@
-<div class="app-container">
-    <app-toolbar [toolbarTitle]="title" [githubUsername]="githubUsername"></app-toolbar>
-    <div class="content">
-        <router-outlet class="content"></router-outlet>
-    </div>
-    <app-footer></app-footer>
-</div>
+<mat-drawer-container>
+    <!--Sidenav content needs to be the element surrounding every piece of content-->
+    <mat-sidenav-content>
+        <div class="app-container">
+
+            <div class="toolbar-container">
+                <app-toolbar [toolbarTitle]="title" [githubUsername]="githubUsername"></app-toolbar>
+            </div>
+            <div class="sidenav-container">
+                <app-sidenav #sidenav [sidenavTitle]="title" [githubUsername]="githubUsername"></app-sidenav>
+            </div>
+            <div class="content" (click)="sidenav.drawer.close()">
+                <router-outlet class="content"></router-outlet>
+            </div>
+            <app-footer (click)="sidenav.drawer.close()"></app-footer>
+        </div>
+    </mat-sidenav-content>
+</mat-drawer-container>

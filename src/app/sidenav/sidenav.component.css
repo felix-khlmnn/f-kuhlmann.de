@@ -1,0 +1,15 @@
+.sidenav-drawer {
+    width: 60vw;
+    background-color: var(--mat-sys-tertiary-container);
+}
+
+.sidenav-toolbar {
+    background: transparent;
+    color: var(--mat-sys-on-tertiary-container);
+    z-index: 1000;
+}
+
+.title-topbar {
+    background-color: var(--mat-sys-secondary-container);
+    color: var(--mat-sys-on-secondary-container);
+}
