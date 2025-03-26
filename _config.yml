@@ -14,12 +14,13 @@ timezone: Europe/Berlin
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "Felix' programming blog" # the main title
+title: "Bitwise Embedded" # the main title
 
-tagline: I will come up with a good tagline # it will display as the subtitle
+tagline: Easily learn modern embedded development # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A blog focused on teaching beginners and intermediate developers new and exciting technologies to help them broaden their skill set. 
+  A blog focused on teaching beginners and intermediate developers new and exciting technologies to help them broaden their skill set.
+  The tutorials provided are free of charge. The goal is to ease the entry into this more and more relevant field of work.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
