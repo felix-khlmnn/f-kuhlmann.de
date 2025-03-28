@@ -8,7 +8,7 @@
     data-cfasync="false"></script>
 <!-- Consent note credit to https://gist.github.com/Chuvisco88/2b446a5c9190b77b41eaafab358223ec -->
 <script defer>
-  console.log("CUSTOM ANALYTICS" + document.readyState)
+  console.log("CUSTOM ANALYTICS" + document.readyState);
     function getCookie(name) {
         var b = document.cookie.match('(^|[^;]+)\\s*' + name + '\\s*=\\s*([^;]+)');
         return b ? b.pop() : '';
@@ -17,11 +17,11 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() {
       dataLayer.push(arguments);
-    }
+    };
 
     gtag('js', new Date());
     gtag('config', '{{ site.analytics.google.id }}');
-  }
+  };
   
   if (document.readyState !== 'loading') {
     console.log("Was ready");
@@ -64,5 +64,5 @@
         })
     };
 
-  console.log("Custom analytics script!")
+  console.log("Custom analytics script!");
 </script>
