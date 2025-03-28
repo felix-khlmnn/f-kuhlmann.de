@@ -29,7 +29,7 @@
         console.log("Cookie Consent: " + cookieConsent);
 
         // Start analytics if user consented or did not deny
-        if (cookieConsent === 'allow' || cookieConsent === '') {
+        if (cookieConsent === 'allow') {
             console.log("Adding analytics");
             addAnalytics();
         }
@@ -46,7 +46,7 @@
                     "text": "#ffffff"
                 }
             },
-            "type": "opt-out",
+            "type": "opt-in",
             "content": {
                 "allow": "Approve",
                 "dismiss": "Approve",
